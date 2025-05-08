@@ -1,0 +1,21 @@
+{
+  "name": "YT Mousewheel Volume Control",
+  "version": "1.0",
+  "description": "Real shitty YT Volume Control via Mousewheel.",
+  "content_scripts": [
+    {
+      "run_at":"document_end",
+      "world":"MAIN",
+      "matches": [
+        "https://*.youtube.com/*"
+      ],
+      "js": [
+        "content-script.js"
+      ],
+      "css": [
+        "scroll.css"
+      ]
+    }
+  ],
+  "manifest_version": 3
+}

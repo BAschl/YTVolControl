@@ -1,0 +1,11 @@
+{
+    "summary": {
+        "en-US": "Control YouTube volume with the mouse wheel."
+    },
+    "categories": [
+        "other"
+    ],
+    "version": {
+        "license": "MPL-2.0"
+    }
+}
